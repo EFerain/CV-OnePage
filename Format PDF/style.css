@@ -1,0 +1,146 @@
+@media print
+{
+    body
+    {
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+@font-face
+{
+    font-family: "GillSans";
+    src: url('GillSans-Light.ttf');
+}
+
+body
+{
+    margin: 0;
+    font-family: 'GillSans';
+    line-height: 1.4;
+}
+
+header
+{
+    margin: 0 30px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 6px solid #23238b;
+    border-bottom: 6px solid #23238b;
+    border-left: 6px solid #23238b;
+    border-radius: 0 0 20px 20px;
+}
+
+#profil
+{
+    top: 10px;
+    left: 50px;
+    position: absolute;
+}
+
+#profil>img
+{
+    width: 200px;
+    height: 200px;
+    border-width: 0;
+    border-radius: 100px;
+    border-style: solid;
+}
+
+#corps
+{
+    display: flex;
+}
+
+#gauche
+{
+    width: 35%;
+}
+
+#informations
+{
+    margin: 60px 10px 10px 30px;
+    padding: 8px;
+    border: 3px solid;
+    border-radius: 20px;
+}
+
+#loisirs, #langues
+{
+    margin: 10px 10px 10px 30px;
+    padding: 8px;
+    border: 3px solid;
+    border-radius: 20px;
+}
+
+#loisirs>div, #informations>div, #langues>div
+{
+    display: flex;
+}
+
+.point
+{
+    margin: 6px 6px 0 0;
+    background-color: black;
+    width: 6px;
+    min-width: 6px;
+    height: 6px;
+    border: 0px solid;
+    border-radius: 3px;
+}
+
+h4
+{
+    margin: 10px 0;
+    width: fit-content;
+    border-bottom: 1px solid;
+}
+
+#droite
+{
+    width: 65%;
+}
+
+.paragraphe
+{
+    margin: 10px 30px;
+    border: 3px solid;
+}
+
+.paragraphe>div
+{
+    padding-left: 8px;
+}
+
+h2
+{
+    padding: 0 0 5px 8px;
+    border-bottom: 3px dashed;
+}
+
+#etudes
+{
+    padding-bottom: 16px;
+}
+
+#etudes>div
+{
+    display: flex;
+}
+
+#colonne
+{
+    margin-bottom: 16px;
+    display: flex;
+}
+
+#colonne>div
+{
+    width: 50%;
+}
+
+#logiciels
+{
+    margin-bottom: 16px;
+}
