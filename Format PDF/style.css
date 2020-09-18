@@ -12,6 +12,7 @@
     src: url('GillSans-Light.ttf');
 }
 
+/* ======== BODY ======== */
 body
 {
     margin: 0;
@@ -19,6 +20,7 @@ body
     line-height: 1.4;
 }
 
+/* ==== Header ==== */
 header
 {
     margin: 0 30px;
@@ -32,6 +34,7 @@ header
     border-radius: 0 0 20px 20px;
 }
 
+/* Profil */
 #profil
 {
     top: 10px;
@@ -48,16 +51,19 @@ header
     border-style: solid;
 }
 
+/* ==== Corps ==== */
 #corps
 {
     display: flex;
 }
 
+/* == Colonne gauche == */
 #gauche
 {
     width: 35%;
 }
 
+/* Informations */
 #informations
 {
     margin: 60px 10px 10px 30px;
@@ -66,6 +72,7 @@ header
     border-radius: 20px;
 }
 
+/* Loisirs, langues */
 #loisirs, #langues
 {
     margin: 10px 10px 10px 30px;
@@ -97,6 +104,7 @@ h4
     border-bottom: 1px solid;
 }
 
+/* == Colonne droite == */
 #droite
 {
     width: 65%;
@@ -119,6 +127,7 @@ h2
     border-bottom: 3px dashed;
 }
 
+/* Etudes */
 #etudes
 {
     padding-bottom: 16px;
@@ -129,6 +138,7 @@ h2
     display: flex;
 }
 
+/* Compétences informatiques */
 #colonne
 {
     margin-bottom: 16px;
@@ -140,6 +150,7 @@ h2
     width: 50%;
 }
 
+/* Logiciels */
 #logiciels
 {
     margin-bottom: 16px;
