@@ -124,7 +124,13 @@ h4
 h2
 {
     padding: 0 0 5px 8px;
-    border-bottom: 3px dashed;
+    border-bottom: 3px dashed rgb(255, 0, 0);
+}
+
+.icone
+{
+    float: right;
+    margin: 13px 8px 0 0;
 }
 
 /* Etudes */
